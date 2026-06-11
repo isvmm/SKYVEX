@@ -38,7 +38,7 @@ function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
   const [sidebarOpen, setSidebarOpen] = useState(false);
   
-  const apiBase = 'http://localhost:5000/api';
+  const apiBase = 'https://skyvex-backend.onrender.com/api';
 
   const handleLogout = () => {
     if (window.confirm('Do you want to log out and de-authorize this device? You will need the passcode to log in again.')) {

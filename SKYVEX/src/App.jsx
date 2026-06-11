@@ -103,7 +103,7 @@ function App() {
     localStorage.setItem('skyvex_wishlist', JSON.stringify(wishlist));
   }, [wishlist]);
 
-  const apiBase = 'http://localhost:5000/api';
+  const apiBase = 'https://skyvex-backend.onrender.com/api';
 
   const [settings, setSettings] = useState({
     homeBannerTagline: '✨ Premium Collection 2026',
